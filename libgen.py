@@ -2,10 +2,10 @@ from urllib.parse import urljoin
 
 from curl_cffi import requests
 
-from app.config import get_settings
-from app.exceptions import BookNotFound
-from app.parser import DownloadParser
-from app.parser import SearchParser
+from config import get_settings
+from exceptions import BookNotFound
+from parser import DownloadParser
+from parser import SearchParser
 
 
 class LibGenClient:
