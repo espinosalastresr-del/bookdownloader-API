@@ -4,7 +4,7 @@ from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup
 
-from app.models import Book
+from models import Book
 
 
 class SearchParser:
