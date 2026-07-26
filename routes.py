@@ -2,8 +2,8 @@ from fastapi import APIRouter
 from fastapi import HTTPException
 from fastapi.responses import StreamingResponse
 
-from app.libgen import LibGenClient
-from app.models import SearchResponse
+from libgen import LibGenClient
+from models import SearchResponse
 
 router = APIRouter()
 
